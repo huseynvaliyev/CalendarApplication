@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.widget.CompoundButton;
 import android.widget.Switch;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Setting extends AppCompatActivity {
 

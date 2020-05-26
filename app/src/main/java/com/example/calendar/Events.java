@@ -1,26 +1,34 @@
 package com.example.calendar;
 
 public class Events {
-    private String event;
+    private String eventName;
     private String time;
     private String date;
     private String month;
     private String year;
+    private String startTime;
+    private String endTime;
+    private String repeated;
+    private String address;
 
-    public Events(String event, String time, String date, String month, String year) {
-        this.event = event;
+    public Events(String eventName, String time, String date, String month, String year, String startTime, String endTime, String repeated, String address) {
+        this.eventName = eventName;
         this.time = time;
         this.date = date;
         this.month = month;
         this.year = year;
+        this.startTime = startTime;
+        this.endTime = endTime;
+        this.repeated = repeated;
+        this.address = address;
     }
 
-    public String getEvent() {
-        return event;
+    public String getEventName() {
+        return eventName;
     }
 
-    public void setEvent(String event) {
-        this.event = event;
+    public void setEventName(String eventName) {
+        this.eventName = eventName;
     }
 
     public String getTime() {
@@ -53,5 +61,37 @@ public class Events {
 
     public void setYear(String year) {
         this.year = year;
+    }
+
+    public String getStartTime() {
+        return startTime;
+    }
+
+    public void setStartTime(String startTime) {
+        this.startTime = startTime;
+    }
+
+    public String getEndTime() {
+        return endTime;
+    }
+
+    public void setEndTime(String endTime) {
+        this.endTime = endTime;
+    }
+
+    public String getRepeated() {
+        return repeated;
+    }
+
+    public void setRepeated(String repeated) {
+        this.repeated = repeated;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 }

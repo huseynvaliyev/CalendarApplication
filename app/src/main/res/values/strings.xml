@@ -2,6 +2,7 @@
     <string name="app_name">Calendar</string>
 
     <string-array name="chooser">
+        <item>None</item>
         <item>Daily</item>
         <item>Weekly</item>
         <item>Yearly</item>
